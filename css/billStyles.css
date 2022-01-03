@@ -1,0 +1,14 @@
+body {
+  padding: 30px;
+}
+
+.bet-display {
+  height: 80vh;
+  width: 20%;
+}
+
+@media (max-width: 768px) {
+  .bet-display {
+    width: 80%;
+  }
+}

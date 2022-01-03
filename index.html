@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Whe whe on the avenue</title>
+</head>
+<body>
+    <h1> WHE WHE on D’Avenue </h1>
+
+<div class="game-board"> 
+    <div class="bets"> 
+         <img src ="images/lotto-ball.jpg">
+        <div class="amount-buttons"> 
+              <button>$1</button>
+               <button>$5</button>
+                <button >$10</button>
+                <button>$20</button>
+        </div>
+    </div>
+
+    <div class="number-grid"> 
+          <button class="number">1</button><button class="number">2</button><button class="number">3</button><button class="number">4</button><button class="number">5</button><button class="number">6</button><button class="number">7</button><button class="number">8</button><button class="number">9</button><button class="number">10</button><button class="number">11</button><button class="number">12</button><button class="number">13</button><button class="number">14</button><button class="number">15</button><button class="number">16</button><button class="number">17</button><button class="number">18</button><button class="number">19</button><button class="number">20</button>
+         <button class="cash fade long-buttons">Cash</button><button class="clear long-buttons fade">Clear</button>
+    </div>
+
+      <div class="bet-display"> 
+            <div class="numbers-selected">Select 5 numbers <br>
+                 numbers selected: </div>
+            <div class="bet-total"> total: </div>
+      </div>
+</div>
+
+<div class="modal hide">
+    <div class="modal-content">
+        <div class=“display-change-container”> 
+            <h2 class="change-header">Enter amount received </h2>
+            <div class="display-change"> 
+               <h3>Total</h3><div id="total">total</div>
+              <h3>Received</h3><input type="text" readonly>
+           <h3>Change</h3><input type="text" readonly>
+             <button id="confirm"><a>Confirm</a></button>
+             <button id="close">Close</button>
+           </div>
+      </div> 
+
+      <div class="enter-change" >
+           <button>7</button><button>8</button><button>9</button><button>4</button><button>5</button><button>6</button><button>1</button><button>3</button><button>3</button><button>0</button><button>.</button><button class="red">cl</button>
+      </div>
+    </div>
+</div>
+<script src="js/script.js"></script>
+</body>
+</html>
